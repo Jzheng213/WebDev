@@ -1,44 +1,29 @@
+
 body{
-	margin: 0;
-}
-header{
-	background: #777;
-	color: White;
-}
-
-header h1{
-	margin: 0;
-	display: inline-block;
+	background-image: url("image/Laptop-HD-Wallpapers-11.jpg");
+	background-size: 1920px 1200px;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;	
 }
 
-nav ul{
-	background: #999;
-	margin: 0;
-	color: black;
-	font-family: arial;
-	font-size: 24px;
+.myPanel{
+	margin: 3%;
 }
 
-nav ul .navLink{
-	float: right;
+.mypanel .heading{
+	color: #999;
+	text-align: center;
+	font-size: 100px;
+	text-shadow: 2px 2px #000;
+}
+.mypanel .heading .body{
+	color: white;
+	text-shadow: 0px;
+	font-size: 50px;
 }
 
-nav ul li{
-
-	display: inline-block;
-	list-style: none;
-	padding: 0px 10px 0px 10px;
-}
-
-nav ul li a{
-	color: black;
-}
-
-.row {
-
-}
-
-.col{
-	background: #
-	float: left;
+.panel-transparent{
+	background: none;
+	border: none;
 }
