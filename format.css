@@ -7,8 +7,14 @@ body{
 	background-position: center;	
 }
 
+#title{
+	background: none;
+	border: none;
+}
 .myPanel{
 	margin: 3%;
+	background: none;
+	border: none;
 }
 
 .mypanel .heading{
@@ -24,7 +30,58 @@ body{
 	font-family: 'brush script mt', cursive;
 }
 
-.panel-transparent{
-	background: none;
-	border: none;
+.adaptSmallScreen{
+	font-size: 5vw;
+}
+
+
+/********max-width 800px***********/
+@media only screen and (max-width: 1000px){
+
+	.mypanel .heading{
+
+		font-size: 90px;
+	}
+	.mypanel .heading .body{
+		font-size: 45px;
+	}
+}
+
+
+
+/********max-width 740px***********/
+@media only screen and (max-width: 767px){
+
+	.mypanel .heading{
+
+		font-size: 60px;
+	}
+	.mypanel .heading .body{
+		font-size: 30px;
+	}
+}
+
+
+/********max-width 640px***********/
+@media only screen and (max-width: 640px){
+
+	.mypanel .heading{
+
+		font-size: 40px;
+	}
+	.mypanel .heading .body{
+		font-size: 25px;
+	}
+}
+
+/********max-width 320px***********/
+@media only screen and (max-width: 320px){
+
+	.mypanel .heading{
+
+		font-size: 20px;
+	}
+	.mypanel .heading .body{
+		font-size: 12px;
+	}
 }
