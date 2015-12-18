@@ -34,7 +34,16 @@ body{
 	font-size: 5vw;
 }
 
+.wrapper{
+	text-align: center;
 
+}
+.button{
+	background: black;
+	color: white;
+	border-color: white;
+	border-width: 2px;
+}
 /********max-width 800px***********/
 @media only screen and (max-width: 1000px){
 
@@ -67,7 +76,7 @@ body{
 
 	.mypanel .heading{
 
-		font-size: 40px;
+		font-size: 35px;
 	}
 	.mypanel .heading .body{
 		font-size: 25px;
@@ -82,6 +91,6 @@ body{
 		font-size: 20px;
 	}
 	.mypanel .heading .body{
-		font-size: 12px;
+		font-size: 20px;
 	}
 }
