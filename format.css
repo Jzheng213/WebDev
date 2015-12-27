@@ -2,12 +2,12 @@ h1{
 	color: black;
 	font-family:Tahoma,Geneva,sans-serif;
 	/*text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;*/
-	font-size: 50px;
+	font-size: 80px;
 }
 
 h2{
 	font-family:Tahoma,Geneva,sans-serif;
-	font-size: 20px;
+	font-size: 25px;
 	color: black;
 	
 
@@ -26,10 +26,13 @@ h2{
 .about-section{
 	height: 855px;
 	padding-top: 50px;
-	background: url("image/office.jpg") no-repeat fixed;
-	background-size: cover;
+	
+	
 }
-
+.about-section:after{
+	background-size: cover;
+	background: url("image/office.jpg") no-repeat fixed;
+}
 .portfolio-section{
 	height: 855px;
 	padding-top: 50px;
@@ -63,6 +66,10 @@ h2{
 	font-family: 'brush script mt', cursive;
 }
 
+.translucent{
+	opacity: 0.4;
+	filter: alpha(opacity = 40); /* For IE*/
+}
 .adaptSmallScreen{
 	font-size: 5vw;
 }
