@@ -1,4 +1,17 @@
+h1{
+	color: black;
+	font-family:Tahoma,Geneva,sans-serif;
+	/*text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;*/
+	font-size: 50px;
+}
 
+h2{
+	font-family:Tahoma,Geneva,sans-serif;
+	font-size: 20px;
+	color: black;
+	
+
+}
 .home-section{
 	height: 855px;
 	padding-top: 50px;
@@ -13,7 +26,7 @@
 .about-section{
 	height: 855px;
 	padding-top: 50px;
-	background: url("image/bar-harbor-champlain-mtn.jpg") no-repeat fixed;
+	background: url("image/office.jpg") no-repeat fixed;
 	background-size: cover;
 }
 
