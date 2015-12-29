@@ -2,15 +2,13 @@ h1{
 	color: black;
 	font-family:Tahoma,Geneva,sans-serif;
 	/*text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;*/
-	font-size: 80px;
+	font-size: 50px;
 }
 
 h2{
 	font-family:Tahoma,Geneva,sans-serif;
-	font-size: 25px;
+	font-size: 23px;
 	color: black;
-	
-
 }
 .home-section{
 	height: 855px;
@@ -42,7 +40,8 @@ h2{
 }
 
 .portfolio-section{
-	margin: 0 0 15 px;
+	padding-top:50px;
+	margin: 0 0 15px;
 	right:0;
 	border: 1px outset rgba(255,255,255,0.6);
 }
@@ -66,8 +65,8 @@ h2{
 	height: 100%;
 	opacity: 0;
 	transition: all ease .5s;
-	-webkit-transition: all-ease .5s;
-	-moz-transition: all-ease .5s;
+	-webkit-transition: all ease .5s;
+	-moz-transition: all ease .5s;
 }
 
 .portfolio .portfolio-link .portfolio-hover:hover{
@@ -178,6 +177,18 @@ hr.divider{
 	.button{
 		display: inline-block;
 	}
+	h1{
+	color: black;
+	font-family:Tahoma,Geneva,sans-serif;
+	/*text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;*/
+	font-size: 40px;
+	}
+
+h2{
+	font-family:Tahoma,Geneva,sans-serif;
+	font-size: 20px;
+	color: black;
+	}
 }
 
 
@@ -191,6 +202,18 @@ hr.divider{
 	.mypanel .heading .body{
 		font-size: 25px;
 	}
+h1{
+	color: black;
+	font-family:Tahoma,Geneva,sans-serif;
+	/*text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;*/
+	font-size: 30px;
+}
+
+h2{
+	font-family:Tahoma,Geneva,sans-serif;
+	font-size: 15px;
+	color: black;
+}
 }
 
 /********max-width 320px***********/
